@@ -2,7 +2,14 @@
   {
     "username": "user1",
     "balance": 100,
-    "rechargeCode": ""
+    "rechargeCode": "",
+    "passwordHash": "somehashedpassword",
+    "transactions": [
+      {
+        "amount": 50,
+        "type": "recharge",
+        "date": "2025-01-29T00:00:00Z"
+      }
+    ]
   }
 ]
-
